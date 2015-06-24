@@ -125,7 +125,7 @@ Ext.define('Movildir.controller.Business', {
     launch: function() {
         var me = this;
 
-        Ext.Viewport.setMasked({ message: 'Cargando...' });
+        Ext.Viewport.setMasked({ message: 'Carghhhhando...' });
         // get the location, then...
         me.getLocation(function (location) {
 
