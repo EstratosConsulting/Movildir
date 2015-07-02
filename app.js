@@ -18,9 +18,24 @@ Ext.application({
     ],
 
     views: [
-        'Main'
+        'Main','MainNav','ListContainer','DetailPanel'
     ],
 
+    models:[
+        'Business'
+        
+    ],
+    
+    stores :[
+        'BusinessStore'
+        
+    ],
+    
+     controllers :[
+         'Business'
+    
+    ],
+    
     icon: {
         '57': 'resources/icons/Icon.png',
         '72': 'resources/icons/Icon~ipad.png',

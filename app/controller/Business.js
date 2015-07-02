@@ -111,7 +111,7 @@ Ext.define('Movildir.controller.Business', {
         
         var store = Ext.data.StoreManager.lookup('BusinessStore'),
             movildirKey = '', // enter your key here
-            url = 'http://estratos.net/movildir/points_maps/location_business' +
+            url = 'Business.json' +
             '?ywsid=' + movildirKey +
             '&term=business' +
             '&lat=' + location.coords.latitude +
@@ -125,7 +125,7 @@ Ext.define('Movildir.controller.Business', {
     launch: function() {
         var me = this;
 
-        Ext.Viewport.setMasked({ message: 'Carghhhhando...' });
+        Ext.Viewport.setMasked({ message: 'Cargando...' });
         // get the location, then...
         me.getLocation(function (location) {
 

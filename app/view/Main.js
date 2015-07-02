@@ -9,6 +9,13 @@ Ext.define('MovilDir.view.Main', {
         tabBarPosition: 'bottom',
 
         items: [
+            
+             { 
+                xclass:'Movildir.view.MainNav',
+            
+                },
+            
+            
             {
                 title: 'Welcome',
                 iconCls: 'home',
