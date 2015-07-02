@@ -10,6 +10,22 @@ Ext.define('Movildir.view.Main', {
 
         items: [
             
+            {
+            
+            title: 'Business',
+                iconCls: 'action',
+
+                items: [
+                    {
+                        docked: 'top',
+                        xtype: 'titlebar',
+                        title: 'Business'
+                    },
+                    {
+                        xtype: 'mainnav'
+                    }
+                ]
+            },
              //{ 
                 //xclass:'Movildir.view.MainNav',
             
