@@ -14,8 +14,8 @@ Ext.define('Movildir.view.ListContainer', {
             {
                 xtype: 'list',
                 id: 'dataList',
-                itemTpl: [
-                    '<img class="photo" src="{photo_url}" width="40" height="40"/>{name}<br/><img src="{rating_img_url_small}"/>&nbsp;<small>{address1}</small>'
+                itemTpl: [ '<div>{name} </div>',
+        '<img class="photo" src="{photo_url}" width="40" height="40"/>{name}<br/><img src="{rating_img_url_small}"/>&nbsp;<small>{address1}</small>'
                 ]
             }
         ]

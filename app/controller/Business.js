@@ -118,8 +118,9 @@ Ext.define('Movildir.controller.Business', {
             //'&term=business' +
             //'&lat=' + location.coords.latitude +
             //'&long=' + location.coords.longitude;
-             ;
+            ;
         store.getProxy().setUrl(url);
+        
         store.load(function() {
             callback(store);
         });
