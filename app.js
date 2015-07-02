@@ -11,7 +11,7 @@
 */
 
 Ext.application({
-    name: 'MovilDir',
+    name: 'Movildir',
 
     requires: [
         'Ext.MessageBox'
@@ -59,7 +59,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('MovilDir.view.Main'));
+        Ext.Viewport.add(Ext.create('Movildir.view.Main'));
     },
 
     onUpdated: function() {

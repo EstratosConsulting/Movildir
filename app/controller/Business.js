@@ -111,11 +111,13 @@ Ext.define('Movildir.controller.Business', {
         
         var store = Ext.data.StoreManager.lookup('BusinessStore'),
             movildirKey = '', // enter your key here
-            url = 'Business.json' +
-            '?ywsid=' + movildirKey +
-            '&term=business' +
-            '&lat=' + location.coords.latitude +
-            '&long=' + location.coords.longitude;
+            
+            url = 'Business.json' 
+            //url = 'Business.json' +
+            //'?ywsid=' + movildirKey +
+            //'&term=business' +
+            //'&lat=' + location.coords.latitude +
+            //'&long=' + location.coords.longitude;
         store.getProxy().setUrl(url);
         store.load(function() {
             callback(store);

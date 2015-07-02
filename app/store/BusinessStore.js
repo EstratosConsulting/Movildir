@@ -9,10 +9,10 @@ Ext.define('Movildir.store.BusinessStore', {
     ],
 
     config: {
-        model: 'CityBars.model.Business',
+        model: 'Movildir.model.Business',
         storeId: 'BusinessStore',
         proxy: {
-            type: 'jsonp',
+            type: 'ajax',
             reader: {
                 type: 'json',
                 rootProperty: 'businesses'

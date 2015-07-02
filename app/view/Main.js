@@ -1,4 +1,4 @@
-Ext.define('MovilDir.view.Main', {
+Ext.define('Movildir.view.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'main',
     requires: [
@@ -10,10 +10,10 @@ Ext.define('MovilDir.view.Main', {
 
         items: [
             
-             { 
-                xclass:'Movildir.view.MainNav',
+             //{ 
+                //xclass:'Movildir.view.MainNav',
             
-                },
+               // },
             
             
             {

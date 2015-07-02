@@ -1,5 +1,3 @@
-
-
 Ext.define('Movildir.view.ListContainer', {
     extend: 'Ext.Container',
     alias: 'widget.listcontainer',

@@ -1,9 +1,9 @@
-Ext.define('MovilDir.model.Business', {
+Ext.define('Movildir.model.Business', {
     extend: 'Ext.data.Model',
     
     config: {
         fields: [
-            { name: 'id', type: 'int' }},
+            { name: 'id', type: 'int' },
             {
                 name: 'name'
             },
