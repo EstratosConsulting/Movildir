@@ -19,7 +19,7 @@ Ext.define('Movildir.view.DetailPanel', {
         items: [
             {
                 xtype: 'container',
-                title: 'Contact',
+                title: 'Contacto',
                 id: 'contact',
                 items: [
                     {
@@ -71,7 +71,7 @@ Ext.define('Movildir.view.DetailPanel', {
                             {
                                 xtype: 'button',
                                 width: 100,
-                                text: 'Call'
+                                text: 'Llamar'
                             },
                             {
                                 xtype: 'spacer',
@@ -80,7 +80,7 @@ Ext.define('Movildir.view.DetailPanel', {
                             {
                                 xtype: 'button',
                                 width: 100,
-                                text: 'More'
+                                text: 'Más'
                             }
                         ]
                     }
@@ -88,7 +88,7 @@ Ext.define('Movildir.view.DetailPanel', {
             },
             {
                 xtype: 'map',
-                title: 'Map',
+                title: 'Mapa',
                 id: 'detailMap'
             }
         ]

@@ -16,9 +16,14 @@ Ext.define('Movildir.view.Main', {
             
               },
             
+             { 
+                xclass:'Movildir.view.ListComments.CommentsVista',
+            
+              },
+            
             
             {
-                title: 'Welcome',
+                title: 'Bienvenido',
                 iconCls: 'home',
 
                 styleHtmlContent: true,
@@ -27,7 +32,7 @@ Ext.define('Movildir.view.Main', {
                 items: {
                     docked: 'top',
                     xtype: 'titlebar',
-                    title: 'Welcome to Sencha Touch 2'
+                    title: 'Bienvenido a Sencha Touch 2'
                 },
 
                 html: [

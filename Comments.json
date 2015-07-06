@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "id_bussines": 1,
+        "text_comment": "Es una buena tienda, el trato es excelente y encuentras lo que buscas",
+        "rating": "5"
+        },
+        
+         {
+        "id": 1,
+        "id_bussines": 2,
+        "text_comment": "Buena comida y buen sercivio, me gusta comer aquí",
+        "rating": "4"
+        },
+        
+         {
+        "id": 2,
+        "id_bussines": 3,
+        "text_comment": "Está bien caro para sacar compias y aparte las hojas salen manchadas, asco de servicio",
+        "rating": "1"
+        },
+        
+         {
+        "id": 3,
+        "id_bussines": 4,
+        "text_comment": "Nada mal, encuentras lo que buscas pero un poco caro",
+        "rating": "5"
+        },
+        
+         {
+        "id": 4,
+        "id_bussines": 5,
+        "text_comment": "Es pequeño el lugar pero fácil de ubicar",
+        "rating": "3"
+        },
+       
+    {
+        "id": 5,
+        "id_bussines": 6,
+        "text_comment": "Tus cosas están bien guardadas y seguras",
+        "rating": "4"
+        },
+        
+         {
+        "id": 6,
+        "id_bussines": 7,
+        "text_comment": "Es un hotel caro y no tiene cajero automático, qué clase de turista quisiera un hotel sin cajero?",
+        "rating": "2"
+        },
+        
+         {
+        "id": 7,
+        "id_bussines": 8,
+        "text_comment": "Todos los productos lacteos parecen haber caducado",
+        "rating": "2"
+        },
+        
+         {
+        "id": 8,
+        "id_bussines": 9,
+        "text_comment": "Es mi OXXO preferido, siempre hay Hotdogs",
+        "rating": "5"
+        },
+        
+         {
+        "id": 9,
+        "id_bussines": 10,
+        "text_comment": "Los mejores pasteles para cumpleaños están aquí",
+        "rating": "4"
+        }
+        
+       
+
+]

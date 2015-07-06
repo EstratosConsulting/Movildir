@@ -10,8 +10,8 @@ Ext.define('Movildir.view.MainNav', {
     ],
 
     config: {
-        iconCls: 'news',
-    title: 'List Container',
+        iconCls: 'search',
+    title: 'Lista de Contenido',
     items: [
       {xtype: 'listcontainer'}
     ]

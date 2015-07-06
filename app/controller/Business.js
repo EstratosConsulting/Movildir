@@ -14,7 +14,7 @@ Ext.define('Movildir.controller.Business', {
             "#dataList": {
                 itemtap: 'onListItemTap'
             },
-            "detailpanel button[text='Call']": {
+            "detailpanel button[text='Llamar']": {
                 tap: 'onCallButtonTap'
             },
             "detailpanel > map": {
@@ -30,7 +30,7 @@ Ext.define('Movildir.controller.Business', {
 
         if (record) {
             details = Ext.create('Movildir.view.DetailPanel', {
-                title: 'Details'
+                title: 'Detalles'
             });
 
             // set the map
@@ -47,7 +47,7 @@ Ext.define('Movildir.controller.Business', {
     },
 
     onCallButtonTap: function(button, e, eOpts) {
-        alert('call tap');
+        alert('Llamando');
     },
 
     onMapActivate: function(newActiveItem, container, oldActiveItem, eOpts) {
