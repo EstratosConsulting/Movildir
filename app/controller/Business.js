@@ -68,6 +68,21 @@ Ext.define('Movildir.controller.Business', {
 
         if (lat && lng) {
             centerMap();
+            
+            // add marker to location
+            
+            var  position = new google.maps.LatLng(lat,lng);
+            
+           var marker= new google.maps.Marker({
+                       position: position,
+               title: "here!",
+                      animation: google.maps.Animation.DROP,
+                    icon: 'resources/icons/marker.png'
+          });
+ 
+                
+             
+         marker.setMap(map.getMap());
         } else {
             geocoder = this._geocoder || (this._geocoder = new google.maps.Geocoder());
             geocoder.geocode(
