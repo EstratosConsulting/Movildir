@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "Abarrotes"
+        },
+        
+          {
+        "id": 1,
+        "name": "Bares"
+        },
+     {
+        "id": 2,
+        "name": "Cine"
+        },
+     {
+        "id": 3,
+        "name": "Electrónicos"
+        },
+     {
+        "id": 4,
+        "name": "Ferreterías"
+        },
+     {
+        "id": 5,
+        "name": "Hoteles"
+        },
+     {
+        "id": 6,
+        "name": "Jugueterías"
+        },
+     {
+        "id": 7,
+        "name": "Musica"
+        },
+     {
+        "id": 8,
+        "name": "Restaurantes"
+        },
+     {
+        "id": 9,
+        "name": "Ropa"
+        },
+     {
+        "id": 10,
+        "name": "Videojuegos"
+        }
+        
+       
+
+]

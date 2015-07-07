@@ -17,6 +17,11 @@ Ext.define('Movildir.view.Main', {
               },
             
              { 
+                xclass:'Movildir.view.CategoriesList.CategoriesNav',
+            
+              },
+            
+             { 
                 xclass:'Movildir.view.ListComments.CommentsVista',
             
               },

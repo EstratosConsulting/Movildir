@@ -18,21 +18,21 @@ Ext.application({
     ],
 
     views: [
-        'Main','MainNav','ListContainer','DetailPanel','ListComments.Comments','ListComments.CommentsNav','ListComments.CommentsVista'
+        'Main','MainNav','ListContainer','DetailPanel','ListComments.Comments','ListComments.CommentsNav','ListComments.CommentsVista','CategoriesList.CategoriesNav','CategoriesList.Categories','CategoriesList.CategoriesVista'
     ],
 
     models:[
-        'Business','Comments'
+        'Business','Comments','CategoriesModel'
         
     ],
     
     stores :[
-        'BusinessStore','CommentsStore'
+        'BusinessStore','CommentsStore','CategoriesStore'
         
     ],
     
      controllers :[
-         'Business','Comments'
+         'Business','Comments','CategoriesController'
     
     ],
     
