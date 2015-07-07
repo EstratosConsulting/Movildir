@@ -57,7 +57,7 @@ Ext.define('Movildir.controller.Business', {
             lng = record.get('longitude'),
             centerMap = Ext.Function.createDelayed(function() {
                 map.setMapOptions({
-                    zoom: 18
+                    zoom: 15
                 });
                 map.setMapCenter({
                     latitude: lat,
