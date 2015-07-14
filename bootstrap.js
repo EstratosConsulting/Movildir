@@ -32,7 +32,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.device.sqlite.SQLResultSet": "touch/src/device/sqlite/Sencha.js",
   "Ext.device.sqlite.SQLResultSetRowList": "touch/src/device/sqlite/Sencha.js",
   "Ext.device.sqlite.SQLTransaction": "touch/src/device/sqlite/Sencha.js",
-  "MovilDir": "app"
+  "Movildir": "app"
 });
 
 Ext.ClassManager.addNameAlternateMappings({
@@ -668,7 +668,25 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "MovilDir.view.Main": []
+  "Movildir.controller.Business": [],
+  "Movildir.controller.CategoriesController": [],
+  "Movildir.controller.Comments": [],
+  "Movildir.model.Business": [],
+  "Movildir.model.CategoriesModel": [],
+  "Movildir.model.Comments": [],
+  "Movildir.store.BusinessStore": [],
+  "Movildir.store.CategoriesStore": [],
+  "Movildir.store.CommentsStore": [],
+  "Movildir.view.CategoriesList.Categories": [],
+  "Movildir.view.CategoriesList.CategoriesNav": [],
+  "Movildir.view.CategoriesList.CategoriesVista": [],
+  "Movildir.view.DetailPanel": [],
+  "Movildir.view.ListComments.Comments": [],
+  "Movildir.view.ListComments.CommentsNav": [],
+  "Movildir.view.ListComments.CommentsVista": [],
+  "Movildir.view.ListContainer": [],
+  "Movildir.view.Main": [],
+  "Movildir.view.MainNav": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -1399,8 +1417,44 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "MovilDir.view.Main": [
+  "Movildir.controller.Business": [],
+  "Movildir.controller.CategoriesController": [],
+  "Movildir.controller.Comments": [],
+  "Movildir.model.Business": [],
+  "Movildir.model.CategoriesModel": [],
+  "Movildir.model.Comments": [],
+  "Movildir.store.BusinessStore": [],
+  "Movildir.store.CategoriesStore": [],
+  "Movildir.store.CommentsStore": [],
+  "Movildir.view.CategoriesList.Categories": [
+    "widget.categories"
+  ],
+  "Movildir.view.CategoriesList.CategoriesNav": [
+    "widget.categoriesnav"
+  ],
+  "Movildir.view.CategoriesList.CategoriesVista": [
+    "widget.categoriesvista"
+  ],
+  "Movildir.view.DetailPanel": [
+    "widget.detailpanel"
+  ],
+  "Movildir.view.ListComments.Comments": [
+    "widget.comments"
+  ],
+  "Movildir.view.ListComments.CommentsNav": [
+    "widget.commentsnav"
+  ],
+  "Movildir.view.ListComments.CommentsVista": [
+    "widget.commentsvista"
+  ],
+  "Movildir.view.ListContainer": [
+    "widget.listcontainer"
+  ],
+  "Movildir.view.Main": [
     "widget.main"
+  ],
+  "Movildir.view.MainNav": [
+    "widget.mainnav"
   ]
 });
 

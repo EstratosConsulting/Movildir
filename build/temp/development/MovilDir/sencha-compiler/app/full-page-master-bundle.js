@@ -1,2 +1,2 @@
 // @tag full-page
-// @require d:\sencha\movildir\app.js
+// @require C:\localRepo\Movildir\app.js
